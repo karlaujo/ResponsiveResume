@@ -44,11 +44,11 @@
                             </a>
                         </li>
                         
-                        <li class="nav__item">
+                        <!--<li class="nav__item">
                             <a href="#Experience" class="nav__link">
                                 <i class='bx bxs-briefcase-alt nav__icon' ></i>Experience
                             </a>
-                        </li>
+                        </li>  add after internship-->
                         
                         <li class="nav__item">
                             <a href="#Github" class="nav__link">
@@ -81,7 +81,7 @@
                         <!-- Theme change button -->
                         <div class="home__container section bd-grid">
                             <div class="home__date bd-grid">
-                                <img src="assets/img/CVPic.jpeg" alt="" class="home__img">  
+                                <img src="assets/img/IMG_9803.jpg" alt="" class="home__img">  
                                     <h1 class="home__title">JOLICOEUR <B>KARL-ÉRIC</B> </h1>
                                     <h3 class="home__profession">Software Engineering Student</h3>
 
@@ -92,13 +92,19 @@
 
                             <div class="home__address bd-grid">
                                 <span class="home__information">
-                                    <i class='bx bxs-map' ></i> 1000 Ottawa St - Montreal, QC
+                                    <a href="https://goo.gl/maps/Lht4ZkioPJTYgCzj9" target="_blank" class="home__information">
+                                        <i class='bx bxs-map' ></i> 1000 Ottawa St - Montreal, QC
+                                    </a>
                                 </span>
                                 <span class="home__information">
-                                    <i class='bx bxs-envelope' ></i> karl.jolicoeur7@gmail.com
+                                    <a href = "mailto: karl.jolicoeur7@gmail.com">
+                                        <i class='bx bxs-envelope' ></i> karl.jolicoeur7@gmail.com
+                                    </a>
                                 </span>
                                 <span class="home__information">
-                                    <i class='bx bxs-phone' ></i>(514) 583-8190
+                                    <a href="tel:+1514-583-8190">
+                                        <i class='bx bxs-phone' ></i>(514) 583-8190
+                                    </a>
                                 </span>
                             </div>
                         </div>
@@ -137,7 +143,7 @@
                     <!--========== PROFILE ==========-->
                     <section class="profile section" id="profile">
                          <h2 class="section-title">Profile</h2>
-
+                            
                          <p class="profile__description">Being a student at ÉTS, my goal as a software engineering employee is to have the opportunity to work on complex real-world problems, develop scalable distributed software systems and collaborate on a multitude of small projects of universal interest. I am passionate about the field of technology and computer science. I had the privilege of developing this passion during my first year at university by learning several coding languages including C, Java, SQL and Dart as well as Linux MacOS and Windows systems. During my second semester I decided to join the App ETS club at my school. This club aims to develop mobile applications using the latest technologies to refine our skills as software engineers.</p>
                     </section>
                     
@@ -194,6 +200,9 @@
                                 <li class="skills__name">
                                     <span class="skills__circle"></span>GNU/Linux
                                 </li>
+                            </ul>
+
+                            <ul class="skills__data">
                                 <li class="skills__name">
                                     <span class="skills__circle"></span>HTML
                                 </li>
@@ -202,6 +211,9 @@
                                 </li>
                                 <li class="skills__name">
                                     <span class="skills__circle"></span>Javascript
+                                </li>
+                                <li class="skills__name">
+                                    <span class="skills__circle"></span>Python
                                 </li>
                             </ul>
                         </div>
@@ -212,12 +224,84 @@
                 <div class="resume__right">
                     <!--========== EXPERIENCE ==========-->
                     <section class="experience section" id="experience">
-                        
-                    </section>
+                        <section class="experience section" id="experience">
+                            <h2 class="section-title">Experience</h2>
 
-                    <!--========== CERTIFICATES ==========-->
-                    <section class="certificate section" id="certificates">
-                        
+                            <div class="experience__container bd-grid">
+                                <div class="experiencce__content">
+                                    <div class="experience__time">
+                                        <span class="experience__rounder"></span>
+                                        <span class="experience__line"></span>
+                                    </div>
+
+                                    <div class="experience__data bd-grid">
+                                        <h3 class="experience__title">Mobile Application Developper</h3>
+                                        <span class="experience__company">From Winter 2022 | Club App|ETS Member</span>
+                                        <p class="expericnce__description">Participating in this club has greatly helped me in developping my programming skills in depth. I have learned to use Google's Flutter as well as coding in Dart. Furthermore, I have refined my git and repository management skills.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </section>
+                    </section>
+                
+                    <!--========== CONTACT ME ==========-->
+                    <section class="contact section" id="contact">
+                        <h2 class="section-title">CONTACT US</h2>
+                        <!DOCTYPE html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>contact form</title>
+</head>
+
+<body>
+
+<link href="contact-form.css" rel="stylesheet">
+
+<div class="fcf-body">
+
+    <div id="fcf-form">
+    <h3 class="fcf-h3">Contact us</h3>
+
+    <form id="fcf-form-id" class="fcf-form-class" method="post" action="contact-form-process.php">
+        
+        <div class="fcf-form-group">
+            <label for="Name" class="fcf-label">Your name</label>
+            <div class="fcf-input-group">
+                <input type="text" id="Name" name="Name" class="fcf-form-control" required>
+            </div>
+        </div>
+
+        <div class="fcf-form-group">
+            <label for="Email" class="fcf-label">Your email address</label>
+            <div class="fcf-input-group">
+                <input type="email" id="Email" name="Email" class="fcf-form-control" required>
+            </div>
+        </div>
+
+        <div class="fcf-form-group">
+            <label for="Message" class="fcf-label">Your message</label>
+            <div class="fcf-input-group">
+                <textarea id="Message" name="Message" class="fcf-form-control" rows="6" maxlength="3000" required></textarea>
+            </div>
+        </div>
+
+        <div class="fcf-form-group">
+            <button type="submit" id="fcf-button" class="fcf-btn fcf-btn-primary fcf-btn-lg fcf-btn-block">Send Message</button>
+        </div>
+
+        <!--<div class="fcf-credit" id="fcf-credit">
+        Simple HTML email form provided by <a href="https://www.majesticform.com" target="_blank">MajesticForm</a>
+        </div>-->
+
+    </form>
+    </div>
+
+</div>
+
+</body>
+</html>
+
                     </section>
 
                     <!--========== REFERENCES ==========-->
