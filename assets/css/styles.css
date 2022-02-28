@@ -134,8 +134,8 @@ img{
   align-items: center;
 }
 
-@media screen and (max-width: 968px) {
-  .nav_menu{
+@media screen and (max-width: 968px){
+  .nav__menu{
     position: fixed;
     bottom: -100%;
     left: 0;
@@ -193,7 +193,9 @@ img{
  }
 
 /* Active menu link */
-
+.active-link{
+  color: var(--title-color);
+}
 
 /*========== HOME ==========*/
 
