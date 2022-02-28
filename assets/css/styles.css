@@ -462,20 +462,20 @@ label.fcf-label {
 
 .fcf-btn-primary {
   color: #fff;
-  background-color: #007bff;
-  border-color: #007bff;
+  background-color: #0f1047;
+  border-color: #0f1047;
 }
 
 .fcf-btn-primary:hover {
   color: #fff;
-  background-color: #0069d9;
-  border-color: #0062cc;
+  background-color: #000000;
+  border-color: #000000;
 }
 
 .fcf-btn-primary:focus, .fcf-btn-primary.focus {
   color: #fff;
-  background-color: #0069d9;
-  border-color: #0062cc;
+  background-color: #0f1047;
+  border-color: #0f1047;
   box-shadow: 0 0 0 0.2rem rgba(38, 143, 255, 0.5);
 }
 
