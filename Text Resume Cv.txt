@@ -1,7 +1,7 @@
 * PROFILE
 
 profile__description
-I am a person, responsible with their work during working hours. Finish various technical and higher studies at large universities. I have several years of experience and achievements in the labor field.
+Being a first year student at ÉTS, my goal as a software engineering employee is to have the opportunity to work on complex real-world problems, develop scalable distributed software systems and collaborate on a multitude of small projects of universal interest. I am passionate about the field of technology and computer science. I had the privilege of developing this passion during my first year at university by learning several coding languages including C, Java, SQL and Dart as well as Linux MacOS and Windows systems. During my second semester I decided to join the App ETS club at my school. This club aims to develop mobile applications using the latest technologies to refine our skills as software engineers.
 
 * EXPERIENCE
 
