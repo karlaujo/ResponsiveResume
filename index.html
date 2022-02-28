@@ -16,7 +16,7 @@
         <!--========== HEADER ==========-->
         <header class="l-header" id="header">
             <nav class="nav bd-container">
-                <a href="#" class="nav__logo">Karl-Eric Jolicoeur</a>
+                <a href="#" class="nav__logo">Karl-Éric Jolicoeur</a>
 
                 <div class="nav__menu" id="nav-menu">
                     <ul class="nav__list">
@@ -72,13 +72,36 @@
 
         <main class="l-main bd-container">
             <!-- All elements within this div, is generated in PDF -->
-            <div class="resume" id="area-cv">
+            <div class="resume">
                 <div class="resume__left">
+
                     <!--========== HOME ==========-->
                     <section class="home" id="home">
                         
                         <!-- Theme change button -->
-                        
+                        <div class="home__container section bd-grid">
+                            <div class="home__date bd-grid">
+                                <img src="assets/img/CVPic.jpeg" alt="" class="home__img">  
+                                    <h1 class="home__title">JOLICOEUR <B>KARL-ÉRIC</B> </h1>
+                                    <h3 class="home__profession">Software Engineering Student at École de Technologie Supérieure</h3>
+
+                                  <div>
+                                      <a download="" href="assets/pdf/Resumé FR.pdf" class="home__button-movil">Download</a>
+                                  </div>  
+                            </div>
+
+                            <div class="home__address bd-grid">
+                                <span class="home__information">
+                                    <i class='bx bxs-map' ></i> 1000 Ottawa St - Montreal, QC
+                                </span>
+                                <span class="home__information">
+                                    <i class='bx bxs-envelope' ></i> karl.jolicoeur7@gmail.com
+                                </span>
+                                <span class="home__information">
+                                    <i class='bx bxs-phone' ></i>(514) 583-8190
+                                </span>
+                            </div>
+                        </div>
     
                         <!-- Button to generate and download the pdf. Available for desktop. -->
 
@@ -137,15 +160,7 @@
         </main>
 
         <!--========== SCROLL TOP ==========-->
-        <div class="resume">
-            <div class="resume__left">
-
-            </div>
-
-            <div class="resume__right">
-                
-            </div>
-        </div>
+        
 
         <!--========== HTML2PDF ==========-->
         <script src="assets/js/html2pdf.bundle.min.js"></script>

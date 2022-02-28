@@ -134,7 +134,7 @@ img{
   align-items: center;
 }
 
-@media screen and (max-width: 968px){
+@media screen and (max-width: 1440px){
   .nav__menu{
     position: fixed;
     bottom: -100%;
